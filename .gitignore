@@ -1,0 +1,24 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Data and trained ML artifacts (generated via scripts)
+data/synthetic_medications.csv
+models/risk_model.joblib
+
+# Environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
